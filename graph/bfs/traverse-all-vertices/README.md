@@ -16,6 +16,6 @@ Time complexity = O(n + e) <br/>
 Because we need to visit all the nodes and iterate all the edges.
 
 <h2>Space Complexity</h2>
-Space complexity = O(n)
+Space complexity = O(n)<br/>
 The space need for the queue is at most n.<br/>
 The space need to store the visited nodes is n.
