@@ -3,6 +3,7 @@ from collections import deque
 '''
 This class represents a mathematical expression. The expression is given as a string when creating an
 object of the Expression class.
+This algorithm evaluate expression without first converting the expression into post fix.
 '''
 class Expression:
     def __init__(self, expression:str):
