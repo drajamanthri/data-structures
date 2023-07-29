@@ -4,7 +4,12 @@ class Graph:
     def __init__(self):
         self.neighbors:defaultdict
 
-    def dfs(self, start):
+    '''
+    This function implements DFS with iteration.
+    @param self
+    @param start:str The starting node
+    '''
+    def dfs(self, start:str):
         stack = [start]
         visited = set()
         
