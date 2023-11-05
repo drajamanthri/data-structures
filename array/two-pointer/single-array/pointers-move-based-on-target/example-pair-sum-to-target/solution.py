@@ -24,7 +24,7 @@ def search(a:list, target:int)->bool:
             return True 
         elif sum < target:
             i = i + 1
-        elif sum > target:
+        else:
             j = j - 1
     return False 
 
