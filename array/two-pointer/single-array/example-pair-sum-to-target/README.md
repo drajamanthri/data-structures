@@ -9,8 +9,8 @@ ej = element at pointer 2
 
 <ul>
 <li>If the sum of ei and ej is the same as the target, we found a match</li>
-<li>If the sum is less than the target, we need to decrement pointer 2</li>
-<li>If the sum is greater than the target, we need to increment pointer 1</li>
+<li>If the sum is greater than the target, we need to decrement pointer 2</li>
+<li>If the sum is less than the target, we need to increment pointer 1</li>
 </ul>
 
 This algorithm works because the array is sorted.
