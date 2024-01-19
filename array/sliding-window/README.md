@@ -29,3 +29,24 @@ Sliding window problem interested in all the elements between two pointers.
     <li>Shrink the window from the left until the constraint on the sub array is valid again</li>
     <li>Repeat expanding and shrinking</li>
 </ul>
+
+<code>
+<pre>
+def fn(arr):
+    left = 0
+    for right in range(len(arr)):
+        Add element at arr[right] to window
+
+        while window is invalid:
+            Remove element at arr[left] from window
+
+        Here we always have a valid window
+        Update answer
+</pre>
+</code>
+<h2>Time complexity</h2>
+O(2n)<br>
+Right can move n times and the left can move n times.<br>
+<code>
+O(n)
+</code>
