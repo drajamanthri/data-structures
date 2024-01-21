@@ -40,10 +40,12 @@ def fn(arr):
         while window is invalid:
             Remove element at arr[left] from window
 
-        Here we always have a valid window
-        Update answer
+        If window valid window
+            Update answer
 </pre>
 </code>
+After the shrinking while loop, the window may not alway be valid if the left went out side boundary. In this scenario, before updating the answer, check if the window is valid. Ex sub array product < k
+
 <h2>Time complexity</h2>
 O(2n)<br>
 Right can move n times and the left can move n times.<br>
